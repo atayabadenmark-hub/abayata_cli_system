@@ -65,7 +65,7 @@ public class Authentication {
         System.out.print("Enter Password: ");
         String password = scanner.nextLine();
 
-        System.out.print("Select a role [1] User [2] Doctor [3] Administrator: ");
+        System.out.print("Select a role [1] User [2] Staff [3] Administrator: ");
         int rolesChoice = scanner.nextInt();
         scanner.nextLine(); // Consume remaining newline character
         String roles;
@@ -75,7 +75,7 @@ public class Authentication {
                 roles = "User";
                 break;
             case 2:
-                roles = "Doctor";
+                roles = "Staff";
                 break;
             case 3:
                 roles = "ADMIN";

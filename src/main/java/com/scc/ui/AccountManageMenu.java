@@ -110,7 +110,7 @@ public class AccountManageMenu {
         String username = scanner.nextLine().trim();
         System.out.print("Enter password: ");
         String password = scanner.nextLine().trim();
-        System.out.print("Enter role (User/Doctor/Admin): ");
+        System.out.print("Enter role (User/Staff/Admin): ");
         String role = scanner.nextLine().trim();
         System.out.print("Enter status (APPROVED/PENDING): ");
         String status = scanner.nextLine().trim();
